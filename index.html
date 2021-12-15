@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICE-CREAM</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="assets/mycss.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>ICE-CREAM SHOP <i class="fad fa-ice-cream"></i></h2>
+        <hr>
+        <div class="main">
+            <label for="name">Name</label>
+            <input type="text" id="name" name='name' >
+        </div>
+        <div class="main2">
+            <label for="select">Select Flavours</label>
+            <select name="select" id="select" onchange="fun()">
+                <option value="">Select</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="mango">Mango</option>
+                <option value="vanilla">Vanilla</option>
+                <option value="mix">Mix</option>
+            </select>
+
+        </div>
+        <div id="result"></div>
+       
+    </div>
+    <script src="assets/myjs.js"></script>
+</body>
+
+</html>
